@@ -8,14 +8,29 @@
     flex-direction: column;
   }
 
-  .box1 {
-    width: 1250px;
-    height: 283px;
-    color: black;
+.imgg {
+border-radius: 100px;
+float:right;
+margin: 0px 30px 15px 0;
+}
     
-  }
+
+
+  .box1 {
+    width: 700px;
+    height: 150px;
+    color: black;
+    font-family: sans-serif;
+    padding: 40px;
+}
+.box1 h2 {
+    
+    margin-left: 0px;
+   }
+
  .box1 h3 {
      color: #0475ba;
+     margin-left: 0%;
     }
 
 
@@ -24,29 +39,57 @@
     height: 125px;
     color: white;
     text-align: left;
+    font-family: sans-serif;
+    padding: 40px;  
   }
+
+  .box2 h2  {
+    margin-left: 20%;
+}
+.box2 ul  {
+    margin-left: 20%;
+}
 
 
   .box3 {
     width: 1250px;
     height: 275px;
     text-align: left;
+    font-family: sans-serif;
+    padding: 40px;
+    margin-left: 22%;
   }
   .box3 h2 {
     color: #0475ba;
+    
    }
+   
+
 
   .box4 {
     width: 1250px;
     height: 150px;
     text-align: left;
+    color: white;
+    font-family: sans-serif;
+    padding: 40px;
+    
   }
+  .box4 h2 {
+    margin-left: 20%;
+}
 
+.box4 p {
+    margin-left: 20%;
+}
 
   .box5 {
     width: 1250px;
     height: 100px;
     text-align: left;
+    font-family: sans-serif;
+    padding: 40px;
+    margin-left: 22%;
   }
   .box5 h2 {
     color: #0475ba;
@@ -56,8 +99,12 @@
     width: 1250px;
     height: 125px;
     text-align: left;
+    color: white;
+    font-family: sans-serif;
+    padding: 40px;
   }
 
   header {
       text-align: center;
+      font-family: sans-serif;
     }
