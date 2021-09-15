@@ -8,17 +8,39 @@
     flex-direction: column;
   }
 
+  .box {
+    width: 1250px;
+    height: 25px;
+    color: white;
+    font-family: sans-serif;
+    padding: 40px;
+    font-size: larger;
+}
+
+.box p  {
+    margin-left: 40px;
+    display: block;
+    text-align: left;
+}
+
+
+
+
 .imgg {
 border-radius: 100px;
-float:right;
-margin: 0px 30px 15px 0;
+float: center;
+margin: 0px 0px 15px 0;
+position: relative;
+top: 0%;
+float: right;
+transform: translateY(-65%);
 }
     
 
 
   .box1 {
     width: 700px;
-    height: 150px;
+    height: 180px;
     color: black;
     font-family: sans-serif;
     padding: 40px;
@@ -26,11 +48,13 @@ margin: 0px 30px 15px 0;
 .box1 h2 {
     
     margin-left: 0px;
+    line-height: 0px;
    }
 
  .box1 h3 {
      color: #0475ba;
      margin-left: 0%;
+     margin: 40px;
     }
 
 
@@ -97,12 +121,24 @@ margin: 0px 30px 15px 0;
 
   .box6 {
     width: 1250px;
-    height: 125px;
+    height: 50px;
     text-align: left;
     color: white;
     font-family: sans-serif;
     padding: 40px;
+    
   }
+
+
+  .box6 li  {
+    margin-left: 15px;
+    display: inline;
+}
+
+
+
+
+
 
   header {
       text-align: center;
